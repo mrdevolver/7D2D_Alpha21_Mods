@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<xml>
+	  <Name value="BagAlert" />
+	  <Author value="mr.devolver" />
+	  <Description value="Adds in on screen indicators of dropped loot bags." />
+	  <DisplayName value="BagAlert" />
+	  <Website value="" />
+	  <Version value="21" />
+	</xml>

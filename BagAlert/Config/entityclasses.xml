@@ -1,0 +1,25 @@
+<configs>
+	<!-- VANILLA LOOT CONTAINERS -->
+	<append xpath="/entity_classes/entity_class[@name='DroppedLootContainer']">
+		<property name="NavObject" value="navBagAlertWhite" />
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='DroppedVehicleContainer']">
+		<property name="NavObject" value="navBagAlertWhite" />
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']">
+		<property name="NavObject" value="navBagAlertYellow" />
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='EntityLootContainerStrong']">
+		<property name="NavObject" value="navBagAlertBlue" />
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='EntityLootContainerBoss']">
+		<property name="NavObject" value="navBagAlertRed" />
+	</append>
+	<!-- NPCMod LOOT CONTAINERS -->
+	<append xpath="/entity_classes/entity_class[starts-with(@name, 'EntityLootContainerNPC')]">
+		<property name="NavObject" value="navBagAlertWhite" />
+	</append>
+	<append xpath="/entity_classes/entity_class[starts-with(@name, 'EntityNPCLootContainer')]">
+		<property name="NavObject" value="navBagAlertWhite" />
+	</append>
+</configs>

@@ -1,0 +1,52 @@
+<configs>
+	<append xpath="/nav_object_classes">
+		<nav_object_class name="navBagAlertWhite">
+			<property name="requirement_type" value="Tracking" />	
+			<onscreen_settings>
+				<property name="sprite_name" value="ui_game_symbol_bagalert_aura"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="100"/>
+				<property name="color" value="255,255,255,200"/>
+				<property name="has_pulse" value="true"/>
+				<property name="text_type" value="Distance"/>
+				<property name="offset" value="0,0.4,0" />
+			</onscreen_settings>
+		</nav_object_class>
+		<nav_object_class name="navBagAlertYellow">
+			<property name="requirement_type" value="Tracking" />	
+			<onscreen_settings>
+				<property name="sprite_name" value="ui_game_symbol_bagalert_aura"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="100"/>
+				<property name="color" value="255,255,100,200"/>
+				<property name="has_pulse" value="true"/>
+				<property name="text_type" value="Distance"/>
+				<property name="offset" value="0,0.4,0" />
+			</onscreen_settings>
+		</nav_object_class>
+		<nav_object_class name="navBagAlertBlue">
+			<property name="requirement_type" value="Tracking" />	
+			<onscreen_settings>
+				<property name="sprite_name" value="ui_game_symbol_bagalert_aura"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="100"/>
+				<property name="color" value="150,200,255,200"/>
+				<property name="has_pulse" value="true"/>
+				<property name="text_type" value="Distance"/>
+				<property name="offset" value="0,0.4,0" />
+			</onscreen_settings>
+		</nav_object_class>
+		<nav_object_class name="navBagAlertRed">
+			<property name="requirement_type" value="Tracking" />	
+			<onscreen_settings>
+				<property name="sprite_name" value="ui_game_symbol_bagalert_aura"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="100"/>
+				<property name="color" value="255,100,64,200"/>
+				<property name="has_pulse" value="true"/>
+				<property name="text_type" value="Distance"/>
+				<property name="offset" value="0,0.4,0" />
+			</onscreen_settings>
+		</nav_object_class>
+	</append>
+</configs>
